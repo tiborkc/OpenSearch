@@ -573,7 +573,15 @@ st.markdown(
     """
     <style>
         section.main > div { max-width: 100% !important; }
-        .block-container { padding-left: 1rem !important; padding-right: 1rem !important; padding-top: 2rem !important; }
+        .block-container {
+            padding-left: 1rem !important;
+            padding-right: 1rem !important;
+            padding-top: 3.75rem !important;
+        }
+        [data-testid="stAlert"] {
+            margin-top: 0.25rem;
+            z-index: 1;
+        }
         button[data-baseweb="tab"] { font-size: 16px !important; font-weight: 600 !important; }
     </style>
     """,
